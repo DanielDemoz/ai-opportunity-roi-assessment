@@ -18,7 +18,7 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
   {
     id: "professional-services",
     name: "Small Professional Services Firm",
-    description: "20 employees — excessive email, document processing, reporting",
+    description: "20 employees, excessive email, document processing, reporting",
     profile: {
       employeeCount: "6_20",
       industry: "professional_services",
@@ -67,7 +67,7 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
   {
     id: "hvac-company",
     name: "HVAC Company",
-    description: "15 employees — scheduling, customer calls, job costing",
+    description: "15 employees, scheduling, customer calls, job costing",
     profile: {
       employeeCount: "6_20",
       industry: "construction_trades",
@@ -115,7 +115,7 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
   {
     id: "marketing-agency",
     name: "Marketing Agency",
-    description: "12 employees — content production, research, reporting",
+    description: "12 employees, content production, research, reporting",
     profile: {
       employeeCount: "6_20",
       industry: "marketing_creative",
@@ -156,7 +156,7 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
   {
     id: "healthcare-clinic",
     name: "Healthcare Clinic",
-    description: "25 employees — scheduling, no-shows, administrative workload",
+    description: "25 employees, scheduling, no-shows, administrative workload",
     profile: {
       employeeCount: "21_50",
       industry: "healthcare",

@@ -116,7 +116,7 @@ function MatrixChart({
         {opportunities.slice(0, 5).map((o) => (
           <li key={o.opportunity.id}>
             <span className="font-medium text-slate-800">{o.opportunity.name}</span>
-            {" — "}
+            {": "}
             {getQuadrant(o)}
           </li>
         ))}

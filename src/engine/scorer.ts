@@ -90,7 +90,7 @@ export function runAssessment(rawProfile: AssessmentProfile): AssessmentResult {
       `Formula: ${value.formula}`,
       ...Object.entries(value.inputs).map(([k, v]) => `${k}: ${v}`),
       `Estimated annual opportunity value: $${value.annualTimeValueLow.toLocaleString()}–$${value.annualTimeValueHigh.toLocaleString()} CAD`,
-      "Label: Estimated opportunity value — not guaranteed savings",
+      "Label: Estimated opportunity value, not guaranteed savings",
     ];
 
     const roiSteps = [

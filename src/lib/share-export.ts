@@ -52,7 +52,7 @@ export function formatResultsAsReport(result: import("@/lib/schemas").Assessment
     "AI OPPORTUNITY & ROI ASSESSMENT REPORT",
     "========================================",
     "",
-    "DISCLAIMER: Scenario-based estimates only — not financial forecasts or guaranteed savings.",
+    "DISCLAIMER: Scenario-based estimates only, not financial forecasts or guaranteed savings.",
     "",
     `Overall AI Opportunity: ${result.overallOpportunityLevel}`,
     `Estimated Annual Opportunity Value: $${result.totalValueLow.toLocaleString()}–$${result.totalValueHigh.toLocaleString()} CAD`,
@@ -66,7 +66,7 @@ export function formatResultsAsReport(result: import("@/lib/schemas").Assessment
 
   result.opportunities.slice(0, 5).forEach((o, i) => {
     lines.push(
-      `${i + 1}. ${o.opportunity.name} — ${o.recommendation.replace(/_/g, " ")}`,
+      `${i + 1}. ${o.opportunity.name}, ${o.recommendation.replace(/_/g, " ")}`,
       `   Value: $${o.value.annualTimeValueLow.toLocaleString()}–$${o.value.annualTimeValueHigh.toLocaleString()} CAD/year`,
       `   Feasibility: ${o.feasibilityScore}/100 | Risk: ${o.governanceRisk}`,
       "",

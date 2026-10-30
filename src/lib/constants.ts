@@ -1,10 +1,10 @@
-/** Canadian SMB convention — clearly labeled default */
+/** Canadian SMB convention, clearly labeled default */
 export const WORKING_DAYS_PER_YEAR = 220;
 
 export const DEFAULT_HOURLY_COST_CAD = 32;
 
 export const DISCLAIMER =
-  "This assessment provides indicative, scenario-based estimates — not financial forecasts, legal advice, or guaranteed savings.";
+  "This assessment provides indicative, scenario-based estimates, not financial forecasts, legal advice, or guaranteed savings.";
 
 export const CAD_FORMAT = new Intl.NumberFormat("en-CA", {
   style: "currency",

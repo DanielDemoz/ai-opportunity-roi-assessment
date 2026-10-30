@@ -21,7 +21,7 @@ export function buildRoadmap(opportunities: OpportunityResult[]): RoadmapPhase[]
   for (const opp of quickWins.slice(0, 1)) {
     phases.push({
       phase: phaseNum++,
-      title: `Quick Win — ${opp.opportunity.name}`,
+      title: `Quick Win, ${opp.opportunity.name}`,
       opportunityId: opp.opportunity.id,
       timeWeeks: { low: 2, high: 4 },
       expectedValue:
@@ -33,7 +33,7 @@ export function buildRoadmap(opportunities: OpportunityResult[]): RoadmapPhase[]
   for (const opp of [...quickWins.slice(1), ...strategic].slice(0, 2)) {
     phases.push({
       phase: phaseNum++,
-      title: `Pilot — ${opp.opportunity.name}`,
+      title: `Pilot, ${opp.opportunity.name}`,
       opportunityId: opp.opportunity.id,
       timeWeeks: { low: 4, high: 8 },
       expectedValue: opp.value.annualTimeValueHigh > 20000 ? "High" : "Medium–High",
@@ -45,7 +45,7 @@ export function buildRoadmap(opportunities: OpportunityResult[]): RoadmapPhase[]
     if (!phases.some((p) => p.opportunityId === opp.opportunity.id)) {
       phases.push({
         phase: phaseNum++,
-        title: `Strategic — ${opp.opportunity.name}`,
+        title: `Strategic, ${opp.opportunity.name}`,
         opportunityId: opp.opportunity.id,
         timeWeeks: { low: 8, high: 16 },
         expectedValue: "High",

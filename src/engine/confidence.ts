@@ -37,7 +37,7 @@ export function calculateConfidence(
 
   if (!hasProcessInput) {
     score -= 20;
-    factors.push("No specific process inputs — using defaults (−20)");
+    factors.push("No specific process inputs, using defaults (−20)");
   }
 
   if (profile.dataQuality === "not_sure" || profile.dataQuality === "poor") {

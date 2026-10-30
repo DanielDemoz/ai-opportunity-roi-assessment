@@ -113,7 +113,7 @@ export function OpportunityCard({ result }: { result: OpportunityResult }) {
 
       {result.governanceCapApplied && (
         <p className="mt-3 text-sm text-amber-700">
-          Governance risk cap applied — high ROI alone does not override elevated risk.
+          Governance risk cap applied, high ROI alone does not override elevated risk.
         </p>
       )}
 

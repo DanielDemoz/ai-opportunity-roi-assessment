@@ -36,7 +36,7 @@ export function ResultsView({ result }: Props) {
           Your AI Opportunity Assessment
         </h1>
         <p className="mt-2 text-slate-600">
-          Scenario-based estimates under the assumptions shown below — not guaranteed
+          Scenario-based estimates under the assumptions shown below, not guaranteed
           savings.
         </p>
       </div>
@@ -239,15 +239,15 @@ export function ResultsView({ result }: Props) {
         <SectionTitle title="Assumptions & Disclaimer" />
         <ul className="list-inside list-disc space-y-2 text-sm text-slate-600">
           <li>
-            <strong>Evidence</strong> — efficiency ranges sourced from industry
+            <strong>Evidence</strong>, efficiency ranges sourced from industry
             benchmarks where available.
           </li>
           <li>
-            <strong>User input</strong> — time, frequency, and employee counts from
+            <strong>User input</strong>, time, frequency, and employee counts from
             your answers.
           </li>
           <li>
-            <strong>Assumption</strong> — cost bands and default hourly rate where you
+            <strong>Assumption</strong>, cost bands and default hourly rate where you
             selected &quot;I don&apos;t know&quot;.
           </li>
           <li>

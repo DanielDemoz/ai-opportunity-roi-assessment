@@ -32,7 +32,7 @@ export default function HomePage() {
         />
         <FeatureCard
           title="Transparent ROI"
-          description="Value and ROI shown as ranges with full explainability — estimates, not guarantees."
+          description="Value and ROI shown as ranges with full explainability, estimates, not guarantees."
         />
         <FeatureCard
           title="Governance-aware"
@@ -64,7 +64,7 @@ export default function HomePage() {
 
       <section className="text-center text-sm text-slate-500">
         <p>
-          AI adoption should begin with a business problem and measurable value — not
+          AI adoption should begin with a business problem and measurable value, not
           with the technology.
         </p>
       </section>

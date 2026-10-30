@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AI Opportunity & ROI Assessment",
   description:
-    "Identify practical AI opportunities, estimate potential ROI, and prioritize initiatives worth testing — for Canadian SMBs.",
+    "Identify practical AI opportunities, estimate potential ROI, and prioritize initiatives worth testing, for Canadian SMBs.",
 };
 
 export default function RootLayout({

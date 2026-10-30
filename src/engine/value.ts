@@ -75,7 +75,7 @@ export function estimateValue(
   };
 
   if (hourly.isDefault) {
-    inputs["Hourly cost note"] = "Default assumption — user selected 'I don't know'";
+    inputs["Hourly cost note"] = "Default assumption, user selected 'I don't know'";
   }
 
   return {

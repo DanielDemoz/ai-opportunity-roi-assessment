@@ -1,6 +1,6 @@
 # AI Opportunity & ROI Assessment
 
-AI Opportunity & ROI Assessment for SMBs — identify practical AI use cases, estimate potential business value, assess feasibility and risk, and prioritize AI initiatives worth piloting.
+AI Opportunity & ROI Assessment for SMBs: identify practical AI use cases, estimate potential business value, assess feasibility and risk, and prioritize AI initiatives worth piloting.
 
 > **Where should we use AI, and is it worth it?**
 
@@ -8,12 +8,12 @@ This is a **business-value decision-support tool**, not a generic AI readiness a
 
 ## Philosophy
 
-- **AI is not assumed to be the answer** — "Improve process first" and "AI not recommended" are valid outcomes
-- **Deterministic scoring** — ROI, feasibility, risk, and rankings use transparent rules, not an LLM
-- **Ranges, not point estimates** — all financial figures are scenario-based with stated assumptions
-- **Governance caps** — high ROI cannot override high governance risk
-- **Evidence-informed** — efficiency assumptions include source, date, and confidence level
-- **Canadian SMB orientation** — CAD currency, Canadian business context, privacy awareness
+- **AI is not assumed to be the answer**: "Improve process first" and "AI not recommended" are valid outcomes
+- **Deterministic scoring**: ROI, feasibility, risk, and rankings use transparent rules, not an LLM
+- **Ranges, not point estimates**: all financial figures are scenario-based with stated assumptions
+- **Governance caps**: high ROI cannot override high governance risk
+- **Evidence-informed**: efficiency assumptions include source, date, and confidence level
+- **Canadian SMB orientation**: CAD currency, Canadian business context, privacy awareness
 
 ## Architecture
 
@@ -53,7 +53,7 @@ Annual time value =
   hours per occurrence × annual frequency × employees × hourly cost × efficiency range
 ```
 
-Efficiency ranges are illustrative assumptions with source and confidence labels — not guaranteed savings.
+Efficiency ranges are illustrative assumptions with source and confidence labels, not guaranteed savings.
 
 ### Composite score weights
 
@@ -82,7 +82,7 @@ If governance risk is **High** or **Very High**, an opportunity cannot receive "
 
 ## ROI disclaimer
 
-**All ROI and value figures are scenario-based estimates under stated assumptions.** They are not financial forecasts, guaranteed savings, or employment predictions. The tool focuses on task time, capacity, process efficiency, and cost opportunity — not workforce reduction.
+**All ROI and value figures are scenario-based estimates under stated assumptions.** They are not financial forecasts, guaranteed savings, or employment predictions. The tool focuses on task time, capacity, process efficiency, and cost opportunity, not workforce reduction.
 
 ## Development
 
@@ -97,10 +97,10 @@ npm run build    # production build
 
 Load from the assessment page:
 
-1. **Small Professional Services Firm** — email, documents, reporting
-2. **HVAC Company** — scheduling, customer calls, job costing
-3. **Marketing Agency** — content, research, reporting
-4. **Healthcare Clinic** — scheduling, admin (elevated privacy considerations)
+1. **Small Professional Services Firm**: email, documents, reporting
+2. **HVAC Company**: scheduling, customer calls, job costing
+3. **Marketing Agency**: content, research, reporting
+4. **Healthcare Clinic**: scheduling, admin (elevated privacy considerations)
 
 ## Relationship to other BRUKD tools
 
@@ -114,4 +114,4 @@ Recommended sequence: **Identify opportunity → Evaluate value → Choose solut
 
 ## License
 
-Private — BRUKD Consultancy portfolio project.
+Private, BRUKD Consultancy portfolio project.

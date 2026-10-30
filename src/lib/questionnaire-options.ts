@@ -139,24 +139,24 @@ export const HOURLY_COST_OPTIONS = [
 ];
 
 export const DATA_QUALITY_OPTIONS = [
-  { id: "poor", label: "Poor — inconsistent or incomplete" },
-  { id: "mixed", label: "Mixed — some good, some problematic" },
-  { id: "good", label: "Good — reliable and structured" },
+  { id: "poor", label: "Poor, inconsistent or incomplete" },
+  { id: "mixed", label: "Mixed, some good, some problematic" },
+  { id: "good", label: "Good, reliable and structured" },
   { id: "not_sure", label: "Not sure" },
 ];
 
 export const PROCESS_STANDARDIZATION_OPTIONS = [
-  { id: "inconsistent", label: "Inconsistent — varies by person or situation" },
+  { id: "inconsistent", label: "Inconsistent, varies by person or situation" },
   { id: "somewhat_standard", label: "Somewhat standardized" },
   { id: "well_defined", label: "Well defined and documented" },
   { id: "not_sure", label: "Not sure" },
 ];
 
 export const TECHNICAL_CAPACITY_OPTIONS = [
-  { id: "none", label: "None — no IT support" },
-  { id: "limited", label: "Limited — occasional help" },
-  { id: "some", label: "Some — part-time or contracted IT" },
-  { id: "strong", label: "Strong — dedicated IT resources" },
+  { id: "none", label: "None, no IT support" },
+  { id: "limited", label: "Limited, occasional help" },
+  { id: "some", label: "Some, part-time or contracted IT" },
+  { id: "strong", label: "Strong, dedicated IT resources" },
 ];
 
 export const EMPLOYEE_READINESS_OPTIONS = [
@@ -176,9 +176,9 @@ export const SENSITIVE_DATA_OPTIONS = [
 ];
 
 export const DECISION_AUTHORITY_OPTIONS = [
-  { id: "informational_only", label: "Informational only — humans decide everything" },
+  { id: "informational_only", label: "Informational only, humans decide everything" },
   { id: "recommendations", label: "AI provides recommendations for human approval" },
-  { id: "semi_automated", label: "Semi-automated — AI acts with human oversight" },
+  { id: "semi_automated", label: "Semi-automated, AI acts with human oversight" },
   { id: "fully_automated", label: "Fully automated decisions" },
 ];
 
@@ -197,7 +197,7 @@ export const STEP_TITLES: Record<string, { title: string; subtitle: string }> = 
   },
   process_details: {
     title: "Current Processes",
-    subtitle: "For your top matched opportunities — how are these tasks performed today?",
+    subtitle: "For your top matched opportunities, how are these tasks performed today?",
   },
   employee_cost: {
     title: "Employee Cost / Time Value",
@@ -209,6 +209,6 @@ export const STEP_TITLES: Record<string, { title: string; subtitle: string }> = 
   },
   risk_governance: {
     title: "Risk & Governance",
-    subtitle: "Lightweight check — this is not a full governance assessment.",
+    subtitle: "Lightweight check, this is not a full governance assessment.",
   },
 };
